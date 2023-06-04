@@ -1,0 +1,32 @@
+/*Fonts here 
+font-family: 'Poppins', sans-serif;
+*/
+
+@media screen and (min-width: 1440px) {
+  .title-text {
+  }
+  .flex-row {
+    border: 2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex-column {
+    border: 2px solid red;
+    flex: 33.33%;
+    max-width: 33.33%;
+    padding: 0 4px;
+  }
+
+  /*Card */
+  .card {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .card-title {
+    border: 2px solid black;
+    font-size: 5rem;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 1439px) {
+}
